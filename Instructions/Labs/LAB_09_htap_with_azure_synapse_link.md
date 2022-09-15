@@ -83,7 +83,7 @@ Tailwind Traders is trying to solve how they can use the list of preferred produ
 
 2. Select the **Linked** tab and expand the **Azure Cosmos DB** section (if this is not visible, use the **&#8635;** button at the top right to refresh Synapse Studio), then expand the **asacosmosdb01 (CustomerProfile)** linked service. Right-click the **OnlineUserProfile01** container, select **New notebook**, and then select **Load to DataFrame**.
 
-    ![The new notebook gesture is highlighted.](images/new-notebook.png "New notebook")
+    ![The new notebook gesture is highlighted.](images/new-notebook-htap.png "New notebook")
 
     Notice that the **OnlineUserProfile01** container that we created has a slightly different icon than the other container. This indicates that the analytical store is enabled.
 
@@ -93,7 +93,7 @@ Tailwind Traders is trying to solve how they can use the list of preferred produ
 
 4. Select **Run all**.
 
-    ![Thew new notebook is shown with the cell 1 output.](images/notebook-cell1.png "Cell 1")
+    ![Thew new notebook is shown with the cell 1 output.](images/notebook-cell2.png "Cell 1")
 
     It will take a few minutes to start the Spark session the first time.
 
@@ -262,7 +262,7 @@ Tailwind Traders wants to explore the Azure Cosmos DB analytical store with T-SQ
 
     ![Data hub.](images/data-hub.png "Data hub")
 
-8. Select the **Workspace** tab and expand the **SQL database** group. Expand the **Profiles** SQL on-demand database (if you do not see this on the list, refresh the **Databases** list). Expand **Views**, then right-click the **UserProfileHTA** view, select **New SQL script**, and then **Select TOP 100 rows**.
+8. Select the **Workspace** tab and expand the **SQL database** group. Expand the **Profiles** SQL on-demand database (if you do not see this on the list, refresh the **Databases** list). Expand **Views**, then right-click the **OnlineUserProfile01** view, select **New SQL script**, and then **Select TOP 100 rows**.
 
     ![The select top 100 rows query option is highlighted.](images/new-select-query.png "New select query")
 
