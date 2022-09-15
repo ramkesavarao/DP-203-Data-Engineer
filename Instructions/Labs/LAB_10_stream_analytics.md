@@ -214,13 +214,13 @@ In this task, you will configure Stream Analytics to use the event hub you creat
     - **Select Azure Synapse Analytics from your subscriptions:** Selected.
     - **Subscription:** Select the subscription you are using for this lab.
     - **Database:** Select **SQLPool01**. Make sure your correct Synapse workspace name appears under **Server name**.
-    - **Authentication mode:** Select **Connection string**.
+    - **Authentication mode:** Select **SQL Server Authentication**.
     - **Username:**: `asa.sql.admin`
     - **Password:** Enter the SQL admin password value you entered when deploying the lab environment, or which was provided to you as part of your hosted lab environment. If you are unsure about your SQL admin username, navigate to the Synapse workspace in the Azure resource group. The SQL admin username is shown in the Overview pane.
     - **Server name**: asaworkspace*xxxxxxx*
     - **Table:** `dbo.VehicleAverages`
 
-        ![The New Output form is filled out with the previously mentioned settings entered into the appropriate fields.](images/synapse-new-output.png "New Output")
+        ![The New Output form is filled out with the previously mentioned settings entered into the appropriate fields.](images/synapse-new-output-1.png "New Output")
 
         > **Note:** If you are unsure about your SQL admin username, navigate to the Synapse workspace in the Azure resource group. The SQL admin username is shown in the Overview pane.
 
