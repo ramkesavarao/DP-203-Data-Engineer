@@ -74,7 +74,7 @@ In this exercise, you will use an Azure Databricks workspace and perform Structu
 
 1. After you've finished exploring the Azure Databricks notebook; in your Azure Databricks workspace, the left pane, select **Compute** and select your cluster. Then select **Terminate** to stop the cluster.
 
-### Task 2: Execute PowerShell script
+### Task 4: Execute PowerShell script
 
 1. In the hosted VM environment provided for this course, open Powershell in administrator mode, and execute the following to set the execution policy to Unrestricted so you can run the local PowerShell script file:
 
