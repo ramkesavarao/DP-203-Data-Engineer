@@ -1,4 +1,7 @@
 ﻿# Import modules
+Install-Module Az
+Import-Module Az
+
 Import-Module Az.CosmosDB
 Import-Module "..\solliance-synapse-automation"
 
